@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "074f32a6-9cd8-4035-ae35-77e5d9edf8d3",
-		"name": "Autenticacion con Passport",
+		"name": "Proyecto Empresas",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -14,7 +14,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empleados",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -33,7 +33,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empleados/edad/menosque/:edad",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados/edad/menosque/:edad",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -62,7 +62,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empleados/:id",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados/:id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -98,7 +98,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/empleados",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -126,7 +126,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/empleados/:id",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados/:id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -153,7 +153,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empleados/:id",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empleados/:id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -185,7 +185,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empresas",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -204,7 +204,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empresas/:id",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas/:id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -240,7 +240,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/empresas",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -259,7 +259,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empresas/:id",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas/:id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -286,7 +286,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/empresas/:id/empleados",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas/:id/empleados",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -323,7 +323,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/empresas/:id/empleados",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/empresas/:id/empleados",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -365,7 +365,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/usuarios/register",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/usuarios/register",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -394,7 +394,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/usuarios/login",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/usuarios/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -423,7 +423,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/usuarios/logout",
+							"raw": "https://proyecto-empresas-gfd769fe.herokuapp.com/usuarios/logout",
 							"protocol": "http",
 							"host": [
 								"localhost"
